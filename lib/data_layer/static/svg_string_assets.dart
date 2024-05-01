@@ -1,0 +1,153 @@
+///Singleton class to store svg assets as [String]
+class SvgStringAssets {
+  ///factory constructor to always return the same instance of [SvgStringAssets]
+  factory SvgStringAssets() => _svgStringAssets;
+  SvgStringAssets._();
+
+  static final SvgStringAssets _svgStringAssets = SvgStringAssets._();
+
+  ///Location icon for profile screen top bar
+  static const profileScreenUserLocationIcon = '''
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.8914 6.99809C18.2211 6.34122 17.4249 5.82679 16.5506 5.48578C15.6763 5.14477 14.7421 4.98423 13.8041 5.01384C11.999 5.07982 10.2874 5.83342 9.0199 7.1203C7.75237 8.40718 7.02478 10.13 6.98615 11.9358C6.9615 13.4743 7.45103 14.9771 8.37714 16.2058C8.50532 16.3981 11.8268 21.016 12.9322 22.548C13.0489 22.7093 13.2019 22.8407 13.3789 22.9318C13.5559 23.0229 13.7518 23.071 13.9509 23.0723H13.9567C14.1545 23.072 14.3496 23.0254 14.5261 22.9361C14.7027 22.8469 14.856 22.7175 14.9735 22.5584C15.4875 21.8595 19.4932 16.3841 19.5988 16.251C19.6049 16.2437 19.6104 16.2364 19.6159 16.2284C20.5185 15.0125 21.0087 13.5398 21.0148 12.0255C21.0179 11.0877 20.8314 10.1589 20.4665 9.29494C20.1016 8.431 19.5658 7.64973 18.8914 6.99809Z" fill="url(#paint0_linear_3482_302)" stroke="#3A3A3A"/>
+<path d="M14.0001 14.0001C14.9666 14.0001 15.7501 13.2166 15.7501 12.2501C15.7501 11.2836 14.9666 10.5001 14.0001 10.5001C13.0336 10.5001 12.2501 11.2836 12.2501 12.2501C12.2501 13.2166 13.0336 14.0001 14.0001 14.0001Z" fill="#F5F5F5"/>
+<defs>
+<linearGradient id="paint0_linear_3482_302" x1="10.2229" y1="6.05241" x2="17.3725" y2="17.4679" gradientUnits="userSpaceOnUse">
+<stop stop-color="#101010"/>
+<stop offset="1" stop-color="#2F2F2F"/>
+</linearGradient>
+</defs>
+</svg>
+''';
+
+  ///Filled Star icon for profile screen top bar
+  static const profileScreenFilledStarIcon = '''
+<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.47831 1.68328C5.95727 0.209183 8.04273 0.209184 8.52169 1.68328L8.88592 2.80426C9.10012 3.46349 9.71445 3.90983 10.4076 3.90983H11.5863C13.1362 3.90983 13.7807 5.89321 12.5267 6.80426L11.5732 7.49706C11.0124 7.90449 10.7777 8.62668 10.9919 9.28591L11.3562 10.4069C11.8351 11.881 10.148 13.1068 8.89402 12.1957L7.94046 11.5029C7.37968 11.0955 6.62032 11.0955 6.05954 11.5029L5.10598 12.1957C3.85204 13.1068 2.16487 11.881 2.64384 10.4069L3.00806 9.28591C3.22226 8.62668 2.98761 7.90449 2.42683 7.49706L1.47327 6.80426C0.21933 5.89321 0.86377 3.90983 2.41373 3.90983H3.59239C4.28555 3.90983 4.89988 3.46349 5.11408 2.80426L5.47831 1.68328Z" fill="url(#paint0_linear_3482_309)"/>
+<defs>
+<linearGradient id="paint0_linear_3482_309" x1="-0.171582" y1="-1.51767" x2="13.0206" y2="10.2516" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF006B"/>
+<stop offset="1" stop-color="#FF4593"/>
+</linearGradient>
+</defs>
+</svg>
+''';
+
+  ///Empty Star icon for profile screen top bar
+  static const profileScreenEmptyStarIcon = '''
+<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.47831 1.68328C5.95727 0.209183 8.04273 0.209184 8.52169 1.68328L8.88592 2.80426C9.10012 3.46349 9.71445 3.90983 10.4076 3.90983H11.5863C13.1362 3.90983 13.7807 5.89321 12.5267 6.80426L11.5732 7.49706C11.0124 7.90449 10.7777 8.62668 10.9919 9.28591L11.3562 10.4069C11.8351 11.881 10.148 13.1068 8.89402 12.1957L7.94046 11.5029C7.37968 11.0955 6.62032 11.0955 6.05954 11.5029L5.10598 12.1957C3.85204 13.1068 2.16487 11.881 2.64384 10.4069L3.00806 9.28591C3.22226 8.62668 2.98761 7.90449 2.42683 7.49706L1.47327 6.80426C0.21933 5.89321 0.86377 3.90983 2.41373 3.90983H3.59239C4.28555 3.90983 4.89988 3.46349 5.11408 2.80426L5.47831 1.68328Z" fill="url(#paint0_linear_2_1513)"/>
+<defs>
+<linearGradient id="paint0_linear_2_1513" x1="1.61538" y1="-1.84615" x2="8.53846" y2="12.3846" gradientUnits="userSpaceOnUse">
+<stop stop-color="#101010"/>
+<stop offset="1" stop-color="#2F2F2F"/>
+</linearGradient>
+</defs>
+</svg>
+
+''';
+
+  ///Notification Bell Icon
+  static const notificationBellIcon = '''
+<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.17903 7.34007C2.17776 6.43907 2.35477 5.54673 2.69984 4.71444C3.04492 3.88214 3.55125 3.12634 4.18967 2.49057C4.8281 1.85479 5.586 1.35161 6.41972 1.00999C7.25344 0.668382 8.14651 0.495092 9.04749 0.500106C12.8095 0.528606 15.821 3.65409 15.821 7.42557V8.10006C15.821 11.501 16.5335 13.477 17.1604 14.56C17.227 14.6754 17.2622 14.8062 17.2623 14.9394C17.2624 15.0725 17.2275 15.2034 17.1611 15.3189C17.0947 15.4343 16.9992 15.5303 16.884 15.5972C16.7689 15.6641 16.6381 15.6996 16.505 15.7H1.49504C1.36186 15.6996 1.23114 15.6641 1.11598 15.5972C1.00081 15.5303 0.905254 15.4343 0.838867 15.3189C0.772481 15.2034 0.737599 15.0725 0.737717 14.9394C0.737835 14.8062 0.772948 14.6754 0.839539 14.56C1.46654 13.477 2.17903 11.501 2.17903 8.10006V7.34007Z" stroke="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.96009 15.7V16.46C5.96009 17.2663 6.28037 18.0395 6.85048 18.6096C7.42059 19.1797 8.19382 19.5 9.00007 19.5C9.80633 19.5 10.5796 19.1797 11.1497 18.6096C11.7198 18.0395 12.0401 17.2663 12.0401 16.46V15.7" stroke="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+''';
+
+  ///Like button Icon
+  static const likeButton = '''
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_ii_2_1523)">
+<circle cx="24" cy="24" r="23.5" fill="black" fill-opacity="0.2" stroke="url(#paint0_linear_2_1523)"/>
+<path d="M24.5308 32.4781L31.6434 25.1693C33.3908 23.3646 33.6455 20.414 31.9946 18.5281C31.5806 18.0529 31.0767 17.6694 30.5135 17.401C29.9504 17.1327 29.34 16.9851 28.7195 16.9674C28.099 16.9497 27.4815 17.0621 26.9047 17.2979C26.328 17.5336 25.8041 17.8878 25.365 18.3386L24.0303 19.7192L22.88 18.5281C21.1238 16.7325 18.2524 16.4708 16.4171 18.1672C15.9547 18.5926 15.5814 19.1105 15.3203 19.6892C15.0592 20.2678 14.9156 20.8951 14.8983 21.5327C14.8811 22.1703 14.9905 22.8048 15.2199 23.3975C15.4494 23.9902 15.794 24.5286 16.2327 24.9798L23.5298 32.4781C23.6629 32.6137 23.8428 32.6897 24.0303 32.6897C24.2177 32.6897 24.3976 32.6137 24.5308 32.4781Z" fill="url(#paint1_linear_2_1523)"/>
+</g>
+<defs>
+<filter id="filter0_ii_2_1523" x="-1" y="-1" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="1" dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_2_1523"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1" dy="-1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0964167 0 0 0 0 0 0 0 0 0 0.370833 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_2_1523" result="effect2_innerShadow_2_1523"/>
+</filter>
+<linearGradient id="paint0_linear_2_1523" x1="5.54563" y1="1.6314" x2="54.8034" y2="27.8328" gradientUnits="userSpaceOnUse">
+<stop stop-color="#45FFF4"/>
+<stop offset="1" stop-color="#7000FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2_1523" x1="17.0001" y1="17.5" x2="34.3782" y2="28.2034" gradientUnits="userSpaceOnUse">
+<stop stop-color="#45FFF4"/>
+<stop offset="1" stop-color="#7000FF"/>
+</linearGradient>
+</defs>
+</svg>
+''';
+
+  ///Home icon for bottom navigation bar
+  static const bottomNavigationBarHomeIcon = '''
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.3406 11.9875L14.5906 4.03593C14.4293 3.88836 14.2186 3.80652 14 3.80652C13.7814 3.80652 13.5707 3.88836 13.4094 4.03593L4.65937 11.9875C4.57133 12.0706 4.50081 12.1706 4.45197 12.2814C4.40313 12.3922 4.37696 12.5117 4.375 12.6328V22.75C4.375 22.9821 4.46719 23.2046 4.63128 23.3687C4.79538 23.5328 5.01794 23.625 5.25 23.625H22.75C22.9821 23.625 23.2046 23.5328 23.3687 23.3687C23.5328 23.2046 23.625 22.9821 23.625 22.75V12.6328C23.623 12.5117 23.5969 12.3922 23.548 12.2814C23.4992 12.1706 23.4287 12.0706 23.3406 11.9875Z" fill="#FF016B" stroke="#FF016B" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 20C10.5 19.7239 10.7239 19.5 11 19.5H17C17.2761 19.5 17.5 19.7239 17.5 20C17.5 20.2761 17.2761 20.5 17 20.5H11C10.7239 20.5 10.5 20.2761 10.5 20Z" fill="black"/>
+</svg>
+''';
+
+  ///Location icon for bottom navigation bar
+  static const bottomNavigationBarLocationIcon = '''
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.8696 5.59766C19.0653 4.80942 18.1099 4.1921 17.0607 3.78289C16.0115 3.37367 14.8904 3.18103 13.7649 3.21656C11.5988 3.29574 9.54488 4.20006 8.02384 5.74431C6.5028 7.28856 5.6297 9.3559 5.58334 11.523C5.55376 13.3692 6.14119 15.1724 7.25253 16.647C7.40634 16.8777 11.3922 22.4192 12.7186 24.2576C12.8586 24.4511 13.0423 24.6088 13.2546 24.7182C13.467 24.8275 13.7022 24.8852 13.941 24.8867H13.948C14.1854 24.8863 14.4194 24.8304 14.6313 24.7233C14.8432 24.6162 15.0271 24.4609 15.1682 24.27C15.7849 23.4314 20.5918 16.8608 20.7185 16.7012C20.7258 16.6924 20.7324 16.6836 20.739 16.6741C21.8221 15.215 22.4103 13.4478 22.4177 11.6306C22.4215 10.5052 22.1977 9.39062 21.7598 8.35388C21.3219 7.31715 20.679 6.37963 19.8696 5.59766Z" stroke="#3A3A3A"/>
+<path d="M14.0001 14C15.1599 14 16.1001 13.0598 16.1001 11.9C16.1001 10.7403 15.1599 9.80005 14.0001 9.80005C12.8403 9.80005 11.9001 10.7403 11.9001 11.9C11.9001 13.0598 12.8403 14 14.0001 14Z" fill="#3A3A3A"/>
+</svg>
+''';
+
+  ///Star icon for bottom navigation bar
+  static const bottomNavigationBarStarIcon = '''
+  <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_3792_248)">
+<circle cx="29" cy="29" r="25" fill="url(#paint0_linear_3792_248)"/>
+<circle cx="29" cy="29" r="24" stroke="#0E0D0D" stroke-width="2"/>
+</g>
+<path d="M26.7175 22.2318C27.4359 20.0207 30.5641 20.0207 31.2825 22.2318L31.5579 23.0793C31.8792 24.0682 32.8007 24.7377 33.8405 24.7377H34.7316C37.0565 24.7377 38.0232 27.7128 36.1423 29.0794L35.4213 29.6031C34.5802 30.2143 34.2282 31.2976 34.5495 32.2864L34.8249 33.1339C35.5433 35.3451 33.0126 37.1838 31.1316 35.8172L30.4107 35.2934C29.5695 34.6823 28.4305 34.6823 27.5893 35.2934L26.8684 35.8172C24.9875 37.1838 22.4567 35.3451 23.1752 33.1339L23.4505 32.2864C23.7718 31.2976 23.4199 30.2143 22.5787 29.6031L21.8577 29.0794C19.9768 27.7128 20.9435 24.7377 23.2684 24.7377H24.1596C25.1993 24.7377 26.1208 24.0682 26.4421 23.0793L26.7175 22.2318Z" fill="black"/>
+<defs>
+<filter id="filter0_d_3792_248" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.225 0 0 0 0 0.225 0 0 0 0 0.225 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3792_248"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3792_248" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_3792_248" x1="15.5385" y1="6.88462" x2="32.8462" y2="42.4615" gradientUnits="userSpaceOnUse">
+<stop stop-color="#101010"/>
+<stop offset="1" stop-color="#2F2F2F"/>
+</linearGradient>
+</defs>
+</svg>
+''';
+
+  ///Chat icon for bottom navigation bar
+  static const bottomNavigationBarChatIcon = '''
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.4375 23.625H5.21718C5.10618 23.6265 4.996 23.6057 4.89316 23.5639C4.79032 23.5221 4.69689 23.4601 4.61839 23.3816C4.53989 23.3031 4.47791 23.2097 4.43611 23.1068C4.39431 23.004 4.37353 22.8938 4.375 22.7828V13.5625C4.375 10.8938 5.43515 8.33432 7.32223 6.44724C9.20932 4.56015 11.7688 3.5 14.4375 3.5V3.5C15.7589 3.5 17.0674 3.76027 18.2882 4.26596C19.5091 4.77165 20.6184 5.51285 21.5528 6.44724C22.4871 7.38163 23.2283 8.49091 23.734 9.71175C24.2397 10.9326 24.5 12.2411 24.5 13.5625V13.5625C24.5 14.8839 24.2397 16.1924 23.734 17.4133C23.2283 18.6341 22.4871 19.7434 21.5528 20.6778C20.6184 21.6121 19.5091 22.3533 18.2882 22.859C17.0674 23.3647 15.7589 23.625 14.4375 23.625V23.625Z" stroke="#3A3A3A" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.4375 12.25C10.4375 11.9739 10.6614 11.75 10.9375 11.75H17.5C17.7761 11.75 18 11.9739 18 12.25C18 12.5261 17.7761 12.75 17.5 12.75H10.9375C10.6614 12.75 10.4375 12.5261 10.4375 12.25Z" fill="#3A3A3A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.4375 15.75C10.4375 15.4739 10.6614 15.25 10.9375 15.25H17.5C17.7761 15.25 18 15.4739 18 15.75C18 16.0261 17.7761 16.25 17.5 16.25H10.9375C10.6614 16.25 10.4375 16.0261 10.4375 15.75Z" fill="#3A3A3A"/>
+</svg>
+''';
+
+  ///Profile icon for bottom navigation bar
+  static const bottomNavigationBarProfileIcon = '''
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14 14C16.5773 14 18.6667 11.9107 18.6667 9.33335C18.6667 6.75602 16.5773 4.66669 14 4.66669C11.4227 4.66669 9.33334 6.75602 9.33334 9.33335C9.33334 11.9107 11.4227 14 14 14Z" stroke="#3A3A3A"/>
+<path d="M23.3333 22.1667V23.3334C23.3333 23.6428 23.2104 23.9395 22.9916 24.1583C22.7728 24.3771 22.4761 24.5 22.1667 24.5H5.83334C5.52392 24.5 5.22717 24.3771 5.00838 24.1583C4.78959 23.9395 4.66667 23.6428 4.66667 23.3334V22.1667C4.66667 20.3102 5.40417 18.5297 6.71692 17.2169C8.02968 15.9042 9.81016 15.1667 11.6667 15.1667H16.3333C18.1899 15.1667 19.9703 15.9042 21.2831 17.2169C22.5958 18.5297 23.3333 20.3102 23.3333 22.1667Z" stroke="#3A3A3A"/>
+</svg>
+''';
+}
