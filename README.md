@@ -4,7 +4,7 @@ LuvIt assessment
 ## Installation
 1. Clone the repository
 ```
-git clone git@github.com:AlphaArtrem/dcob.git
+git clone git@github.com:AlphaArtrem/luvit.git
 ```
 2. Setup firebase with ```com.example.luvit``` project
 ```
